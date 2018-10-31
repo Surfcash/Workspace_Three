@@ -5,14 +5,11 @@ import processing.core.PVector;
 
 public class MainApp extends PApplet{
 
-    static boolean MOUSE_LEFT, IN_LEFT, IN_RIGHT, IN_UP, IN_DOWN, IN_ESCAPE, IN_ENTER = false;
     static float tileSize;
     static TileMap tilemap;
     private float previousMil;
     static float deltaTime;
     static PVector gridCorner;
-
-
 
     public static void main(String[] args) {
         String[] PApp = {"com.colin.MainApp"};
